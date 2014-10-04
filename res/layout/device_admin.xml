@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+	<TextView
+	    android:id="@+id/config_message"
+	    android:layout_width="fill_parent"
+	    android:layout_height="35dip"
+	    android:gravity="center"
+	    android:layout_weight="0"  
+	    android:paddingBottom="4dip"
+	    android:text="@string/config_message"
+	    android:textSize="20sp"
+	    android:background="@color/background" />
+    <TextView
+        android:id="@+id/enable_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0"
+        android:paddingBottom="4dip"
+        android:text="@string/sample_device_admin_summary"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/enable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enable_admin" />
+
+        <Button
+            android:id="@+id/disable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/disable_admin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pass_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0"
+        android:paddingBottom="4dip"
+        android:text="@string/set_pass_desc"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/set_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_pass" >
+
+            <requestFocus />
+        </Button>
+    </LinearLayout>
+
+ <TextView
+        android:id="@+id/deviceadmin_desable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0"
+        android:paddingBottom="4dip"
+        android:text="@string/deviceadmin_disable_message"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+	    <TextView
+	        android:id="@+id/deviceadmin_desable_deactivate_msg"
+	        android:layout_width="215dp" 
+	        android:layout_height="wrap_content"
+	        android:text="@string/deviceadmin_disable_deactivate"
+	        android:textSize="20sp" />
+
+	    <ToggleButton
+	        android:id="@+id/ButtonDeactivateOFF"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_weight="0"
+	        android:gravity="right"
+	        android:text="ToggleButton" />
+	</LinearLayout>
+<!--     <LinearLayout -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:gravity="center" -->
+<!--         android:orientation="horizontal" > -->
+<!-- 	    <TextView -->
+<!-- 	        android:id="@+id/deviceadmin_uninstall_deactivate_msg" -->
+<!-- 	        android:layout_width="215dp"  -->
+<!-- 	        android:layout_height="wrap_content" -->
+<!-- 	        android:layout_weight="0" -->
+<!-- 	        android:text="@string/deviceadmin_disable_uninstall" -->
+<!-- 	        android:textSize="20sp" /> -->
+
+<!-- 	    <ToggleButton -->
+<!-- 	        android:id="@+id/ButtonUnistallOFF"  -->
+<!-- 	        android:layout_width="wrap_content" -->
+<!-- 	        android:layout_height="wrap_content" -->
+<!-- 	        android:layout_gravity="center_horizontal" -->
+<!-- 	        android:layout_weight="0" -->
+<!-- 	        android:gravity="right" -->
+<!-- 	        android:text="ToggleButton" /> -->
+<!-- 	</LinearLayout> -->
+<!--     <LinearLayout -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:gravity="center" -->
+<!--         android:orientation="horizontal" > -->
+<!-- 	    <TextView -->
+<!-- 	        android:id="@+id/deviceadmin_cleardata_deactivate_msg" -->
+<!-- 	        android:layout_width="215dp"  -->
+<!-- 	        android:layout_height="wrap_content" -->
+<!-- 	        android:layout_weight="0" -->
+<!-- 	        android:text="@string/deviceadmin_cleardata_deactivate" -->
+<!-- 	        android:textSize="20sp" /> -->
+
+<!-- 	    <ToggleButton -->
+<!-- 	        android:id="@+id/ButtoncleardataOFF"  -->
+<!-- 	        android:layout_width="wrap_content" -->
+<!-- 	        android:layout_height="wrap_content" -->
+<!-- 	        android:layout_gravity="center_horizontal" -->
+<!-- 	        android:layout_weight="0" -->
+<!-- 	        android:gravity="right" -->
+<!-- 	        android:text="ToggleButton" /> -->
+<!-- 	</LinearLayout> -->
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- ====================== -->
+    <!--  General Info Strings  -->
+    <!-- ====================== -->
+    <string name="app_name">hoXapp</string>
+    <string name="shutdown">Shutdown</string>
+    <string name="main_deviceadmin">DevicAdmin</string>
+    <string name="main_help">Help</string>
+    <string name="main_config">Config</string>
+    <string name="main_startserver">Server</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="set_pass_desc">Please Configure Password:</string>
+    <string name="set_pass">Set Password</string>
+    <string name="admin_app_description">Activate DeviceAdmin to perform remote hoXapp tasks!</string>
+    <string name="sample_device_admin_summary">Enable DeviceAdministrator: </string>
+    <string name="enable_admin">Enable</string>
+    <string name="disable_admin">Disable</string>
+    <string name="help_description_title">hoXapp Informatio:</string>
+    <string name="help_description">Disable</string>    
+    <string name="main_pass_title">Welcome to hoXapp</string>
+    <string name="main_pass_desc">Please set your personal password!</string>
+    
+    <string name="deviceadmin_disable_message">Extra hoXapp Settings:</string>    
+    <string name="deviceadmin_disable_deactivate">Admin Disable Service:</string>
+    <string name="deviceadmin_disable_uninstall">Uninstall Service:</string>
+    <string name="deviceadmin_cleardata_deactivate">ClearData Service:</string>
+    
+    <!-- =============================== -->
+    <!--  DeviceAdmin receiver messages  -->
+    <!-- =============================== -->
+    <string name="msg_onEnabled">hoXApp Admin: Enabled</string>
+    <string name="msg_char_onDisable">If you disable DeviceAdmin you will loose many hoXapp features!</string>
+    <string name="msg_onDisabled">hoXApp Admin: Disabled</string>
+    <string name="msg_onPasswordChanged">hoXApp Admin: Password Changed</string>
+    <string name="msg_onPasswordFailed">hoXApp Admin: Password Failed</string>
+    <string name="msg_onPasswordSucceeded">hoXApp Admin: Password Succeeded</string>
+    <!-- ======================= -->
+    <!--  Configuration Strings  -->
+    <!-- ======================= -->
+    <string name="config_message">hoXapp Configuration</string>
+    <string name="config_pass_title">Reset hoXapp Password:</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="password_hint">Password</string>
+    <string name="config_gps_title">Recive GPS cordinates:</string>
+    <string name="config_gps_message_sms">Recive via SMS:</string>
+    <string name="config_gps_message_internet">Recive via Internet:</string>
+    <string name="config_app_ident_message">Change Identifier:</string>
+    <string name="reset_app_ident">Set AppIdnt</string>
+    <string name="config_app_ident">********</string>
+    <!-- =============================== -->
+    <!--  Configuration Message Strings  -->
+    <!-- =============================== -->
+    <string name="config_message_deviceadmin">DeviceAdmin Configuration</string>
+    <string name="config_admin_number_message">AdminRecovery Mobile Number:</string>
+    <string name="config_admin_number">Other Number</string>
+    <string name="reset_admin_number">Set Number</string>
+    
+	<string name="msg_admin_numberChanged">Administrator Number changed to: </string>
+    <string name="msg_admin_numberWeak">Please enter minimum 6 char number!</string>
+    
+    <string name="msg_passChanged">Password Changed! New Password: </string>
+    <string name="msg_appIdentChanged">AppIdentifier Changed to </string>
+    
+    <string name="msg_pass_weak">Please enter minimum 4 char password!</string>
+    <string name="msg_appIdent_weak">Please enter minimum 4 char AppIdentifier!</string>
+    <!-- =============================== -->
+    <!--  Configuration Server  Strings  -->
+    <!-- =============================== -->
+    <string name="hoxapp_server">hoXapp Server</string>
+    <string name="server_adr_info">Server Access URL:</string>
+    <string name="hoxapp_server_ip_addr">http://</string>
+    <string name="server_info_clients_req">Current Requests: </string>
+    
+	<string name="back_button_label">Back</string>
+	<string name="skip_button_label">Skip</string>
+	<string name="next_button_label">Next</string>
+	<string name="loading">Loading\u2026</string>
+	<string name="capital_on">ON</string>
+	<string name="capital_off">OFF</string>
+    
+</resources>

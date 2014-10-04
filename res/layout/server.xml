@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+<TextView
+    android:id="@+id/hoxapp_server"
+    android:layout_width="fill_parent"
+    android:layout_height="35dip"
+    android:gravity="center"
+    android:layout_weight="0"  
+    android:paddingBottom="4dip"
+    android:text="@string/hoxapp_server"
+    android:textSize="20sp"
+    android:background="@color/background" />
+<TextView
+    android:id="@+id/server_info"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:layout_marginTop="15dp"
+    android:layout_weight="0"  
+    android:paddingBottom="4dip"
+    android:textSize="20sp"
+    android:text="@string/server_adr_info" />
+<TextView
+    android:id="@+id/ipaddr"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="15dp"
+    android:layout_weight="0"  
+    android:paddingBottom="4dip"
+    android:textSize="20sp"/>
+<TextView
+    android:id="@+id/server_info_clients"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:layout_marginTop="15dp"
+    android:layout_weight="0"  
+    android:paddingBottom="4dip"
+    android:textSize="20sp"
+    android:text="@string/server_info_clients_req" />
+
+<TextView
+    android:id="@+id/server_request"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>

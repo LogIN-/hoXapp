@@ -1,0 +1,689 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bin",
+				"binding_path"
+			],
+			[
+				"to",
+				"totalLetters"
+			],
+			[
+				"ne",
+				"nextLetter"
+			],
+			[
+				"cur",
+				"currentLetter"
+			],
+			[
+				"un",
+				"using"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"require",
+				"require_once  (keyword)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1154,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 313.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/login/documents/repos/hoXapp"
+	],
+	"file_history":
+	[
+		"/home/login/documents/repos/hoXapp/project.properties",
+		"/home/login/documents/repos/duplicate/binding.gyp",
+		"/home/login/documents/repos/duplicate/package.json",
+		"/home/login/documents/repos/duplicate/test.js",
+		"/home/login/documents/repos/duplicate/src/duplicate.cc",
+		"/home/login/documents/repos/duplicate/README",
+		"/home/login/documents/repos/nativeMinify/index.js",
+		"/home/login/documents/repos/duplicate/Makefile",
+		"/home/login/documents/repos/duplicate/fdupes.1",
+		"/home/login/documents/repos/duplicate/TODO",
+		"/home/login/documents/repos/duplicate/CHANGES",
+		"/home/login/documents/repos/duplicate/CONTRIBUTORS",
+		"/home/login/documents/repos/duplicate/INSTALL",
+		"/media/Disk/Ubuntu 16.02/www/TorrentFy/downloader/TransmissionRPC.class.php",
+		"/media/Disk/Ubuntu 16.02/www/include/class/html.class.php",
+		"/media/Disk/Ubuntu 16.02/workspace/JavaTestClasses/src/RecursiveList.java",
+		"/media/Disk/Ubuntu 16.02/workspace/mysql_insert/src/mysqlinsert/solr/MySQLInsertProcessorFactory.java",
+		"/media/Disk/Ubuntu 16.02/www/rc4.php",
+		"/media/Disk/Ubuntu 16.02/www/__index.php",
+		"/media/Disk/Ubuntu 16.02/www/include/functions/functions.inc.php",
+		"/media/Disk/Ubuntu 16.02/www/include/class/debug.class.php",
+		"/media/Disk/Ubuntu 16.02/www/include/class/database.class.php",
+		"/media/Disk/Ubuntu 16.02/workspace/mysqlinsert/connectorModule/mysqlinsert/solr/MySQLInsertProcessorFactory.java",
+		"/media/Disk/Ubuntu 16.02/Desktop/hdd",
+		"/media/Disk/IVAN/SSH.txt",
+		"/media/Disk/IVAN/webcams.py~",
+		"/media/Disk/Ubuntu 16.02/BackHox/untitled",
+		"/media/Disk/Ubuntu 16.02/BackHox/Untitled Document",
+		"/media/Disk/Ubuntu 16.02/Desktop/fdupes-1.50-PR2/README",
+		"/media/Disk/Ubuntu 16.02/Desktop/luse/scraper_01.sh",
+		"/media/Disk/Ubuntu 16.02/Desktop/tuebl/down.sh",
+		"/media/Disk/Ubuntu 16.02/Desktop/BackUp PubLib.io/chm2pdf.py",
+		"/media/Disk/Ubuntu 16.02/Desktop/mysql_import/MySQLInsertProcessorFactory.java",
+		"/media/Disk/Ubuntu 16.02/Desktop/fdupes-1.50-PR2/fdupes.c",
+		"/media/Disk/BACKUP/WINDOWS/Desktop/Private/DECODE/Formatter/styles/gnu.conf",
+		"/media/Disk/BACKUP/WINDOWS/Desktop/AdultFlickScript_V1.3.1/AdultFlickScript_V1.3.1/upload/include/classes/html2text.php",
+		"/media/Disk/BACKUP/WINDOWS/Desktop/AdultFlickScript_V1.3.1/AdultFlickScript_V1.3.1/upload/include/classes/htmlparser.php",
+		"/media/Disk/BACKUP/WINDOWS/Desktop/AdultFlickScript_V1.3.1/AdultFlickScript_V1.3.1/upload/include/classes/tags.php",
+		"/media/Disk/BACKUP/WINDOWS/Desktop/AdultFlickScript_V1.3.1/AdultFlickScript_V1.3.1/upload/include/image_processing/image.class.php",
+		"/media/Disk/users.csv/users-saved.txt",
+		"/home/login/.conkyrc",
+		"/tmp/fz3temp-1/opendkim.conf",
+		"/tmp/fz3temp-1/vsftpd.chroot_list",
+		"/tmp/fz3temp-1/server.conf",
+		"/tmp/fz3temp-1/flopup",
+		"/tmp/fz3temp-1/main.cf",
+		"/tmp/fz3temp-1/utils.js",
+		"/tmp/fz3temp-1/main.js",
+		"/tmp/fz3temp-1/setup.php",
+		"/tmp/fz3temp-1/app.js",
+		"/tmp/fz3temp-1/main 2.js",
+		"/tmp/fz3temp-1/functions.inc 2.php",
+		"/tmp/fz3temp-1/programming.ext.inc.php",
+		"/tmp/fz3temp-1/rss_feed.php",
+		"/tmp/fz3temp-1/apc.php",
+		"/tmp/fz3temp-1/hotspot.cron.php",
+		"/tmp/fz3temp-1/functions.files.inc.php",
+		"/tmp/fz3temp-1/crawler.js",
+		"/home/login/documents/repos/datagram/package.json",
+		"/tmp/fz3temp-1/index.php",
+		"/tmp/fz3temp-1/functions.scp.inc.php",
+		"/tmp/fz3temp-1/functions.php",
+		"/tmp/fz3temp-1/functions.pages.inc.php",
+		"/tmp/fz3temp-1/proccess_users.php",
+		"/tmp/fz3temp-1/create_invoices.php",
+		"/tmp/fz3temp-1/process.php",
+		"/tmp/fz3temp-1/functions.inc.php",
+		"/tmp/fz3temp-1/ncbi_mail.py",
+		"/home/login/documents/repos/nativeMinify/package.json",
+		"/home/login/documents/repos/nativeMinify/README.md",
+		"/home/login/documents/repos/datagram/README.md",
+		"/home/login/documents/repos/datagram/LICENSE",
+		"/home/login/documents/repos/datagram/datagram/package.json",
+		"/home/login/documents/repos/datagram/datagram/index.js",
+		"/home/login/documents/repos/datagram/.gitignore",
+		"/home/login/documents/repos/nativeMinify/.gitignore",
+		"/home/login/documents/repos/testing-repo/index.js",
+		"/home/login/documents/repos/nativeMinify/main.js",
+		"/home/login/documents/repos/testing-repo/node_modules/native-minify/index.js",
+		"/home/login/documents/repos/nativeMinify/binding.gyp",
+		"/home/login/documents/repos/testing-repo/package.json",
+		"/home/login/documents/repos/nativeMinify/src/binding.gyp",
+		"/home/login/documents/repos/nativeMinify/src/main.cc",
+		"/home/login/documents/repos/chuppy/README.md",
+		"/home/login/documents/repos/nativeMinify/src/testFiles/in/three.js",
+		"/var/www/test.js",
+		"/home/login/documents/repos/nativeMinify/.travis.yml",
+		"/home/login/documents/repos/chuppy/application/node_modules/sqlite3/deps/common-sqlite.gypi",
+		"/home/login/documents/repos/chuppy/application/node_modules/sqlite3/package.json",
+		"/home/login/documents/repos/chuppy/application/node_modules/sqlite3/binding.gyp",
+		"/home/login/documents/repos/chuppy/application/node_modules/sqlite3/deps/sqlite3.gyp",
+		"/home/login/documents/repos/chuppy/application/node_modules/sqlite3/sqlite3.js",
+		"/var/www/index.html",
+		"/home/login/documents/repos/nativeMinify/src/testFiles/out/native/compacted.min.js",
+		"/home/login/documents/repos/nativeMinify/native/main.cc",
+		"/home/login/documents/repos/nativeMinify/node_modules/node-minify/lib/node-minify.js",
+		"/home/login/documents/repos/nativeMinify/native/testFiles/in/backbone.js",
+		"/home/login/documents/repos/nativeMinify/native/testFiles/out/native/backbone.min.js",
+		"/home/login/documents/repos/nativeMinify/.git/MERGE_MSG",
+		"/home/login/documents/repos/nativescan/native/main.cc",
+		"/home/login/documents/repos/nativescan/native/binding.gyp",
+		"/home/login/documents/repos/nativescan/package.json",
+		"/home/login/documents/repos/nativescan/main.js",
+		"/home/login/documents/repos/nativescan/native/nativescan.cc",
+		"/home/login/documents/repos/nativescan/native/testFiles/is.js",
+		"/var/www/backbone.js",
+		"/home/login/documents/repos/nativescan/native/testFiles/backbone.min.js",
+		"/home/login/documents/repos/nativescan/native/testFiles/is.min.js",
+		"/home/login/documents/repos/nativescan/native/testFiles/out/native/backbone.min.js",
+		"/home/login/documents/repos/node/deps/v8/samples/shell.cc",
+		"/home/login/documents/repos/node/deps/v8/samples/process.cc",
+		"/home/login/documents/repos/nativescan/native/testFiles/out/others/backbone0.js",
+		"/home/login/documents/repos/nativescan/native/testFiles/out/others/backbone12.js",
+		"/home/login/documents/repos/nativescan/native/testFiles/out/native/backbone37.js",
+		"/home/login/documents/repos/nativescan/native/testFiles/backbone.min.minify.js",
+		"/home/login/documents/repos/nativescan/native/testFiles/backbone-min_org.js",
+		"/home/login/documents/repos/nativescan/native/testFiles/backbone.js",
+		"/home/login/documents/dev",
+		"/home/login/downloads/Torrents/completed/Deja Vu (2006)/Deja.Vu.2006.720p.x264.YIFY.srt",
+		"/home/login/downloads/Torrents/completed/Deja Vu (2006)/AhaShare.com.txt",
+		"/tmp/vlcinfo_Application.h",
+		"/home/login/documents/repos/nodeMouse/native/binding.gyp",
+		"/home/login/documents/repos/nodeMouse/native/tue.cc",
+		"/home/login/documents/repos/nodeMouse/main.js",
+		"/home/login/downloads/Torrents/completed/Daredevil Directors Cut (2003)/Daredevil.Directors.Cut.2003.720p.BrRip.x264.YIFY+HI.srt",
+		"/home/login/documents/repos/nodeMouse/native/CutyCapt.cc",
+		"/home/login/documents/repos/cutycapt-code/CutyCapt/CutyCapt.pro",
+		"/home/login/documents/repos/cutycapt-code/CutyCapt/CutyCapt.hpp"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/login/documents/repos/chuppy/node_modules",
+			"/home/login/documents/repos/chuppy/application"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"argv",
+			"cloneargs",
+			"':\n",
+			"_linePool ",
+			"_linePool.push(line);",
+			"PRODUCT_DIR",
+			"(2)",
+			"(*)",
+			"clipLine",
+			"getNextVertexInPool",
+			"function getNextLineInPool()",
+			"getNextFaceInPool",
+			"l.push(line);_linePoolLength++;_lineCount++return line;}",
+			"logdepthbuf_fragment",
+			",THREE.ShaderChunk[",
+			"THREE.RGBA_PVRTC_2BPPV1_Format",
+			"THREE.RGBA_PVRTC_2BPPV1_Format=2103",
+			"JSMinify",
+			"Set",
+			"Array",
+			"outFileStream",
+			"openOutFileStream",
+			"inputFile",
+			"=/\\*\\w+/g;var escapeRegExp=/[\\-{}",
+			"char",
+			"\\r",
+			"_",
+			"fputc(buffer[i], outfile)",
+			"æ",
+			"è",
+			"printf",
+			"stdin",
+			"ToCString",
+			"printf",
+			"main",
+			"RunMain",
+			"argc",
+			"error",
+			"argc",
+			"Function",
+			"v8::Local<v8::Value>",
+			"Local<Value>",
+			"basic_ostream",
+			"æ",
+			"è",
+			"ð",
+			"argc",
+			"argv",
+			"RETVAL_LONG",
+			"showArrow",
+			"featureProjectImageDirArr",
+			"View Projects",
+			"è",
+			"æ",
+			"è",
+			"default",
+			"git add",
+			"git",
+			"defs",
+			" id=\"g.*\">",
+			"id=\"g.*\"",
+			" id=\"path.*\" style",
+			"inkscape:connector-curvature=\"0\" ",
+			"g18",
+			"#g18",
+			"6",
+			"10",
+			"0.10.4",
+			"0.10.5",
+			"0.10.1",
+			"Zipping",
+			"command",
+			"{ \"keys\": [\"super+v\"], \"command\": \"paste_and_indent\" },\n{ \"keys\": [\"super+shift+v\"], \"command\": \"paste\" },\n{ \"keys\": [\"ctrl+alt+f\"], \"command\": \"webfont\" }",
+			"command",
+			"æ",
+			"ć",
+			"è",
+			"gaze",
+			"æ",
+			"è",
+			"collaboration",
+			"displayMyInfo",
+			"attr",
+			"copy_message",
+			"default_font_color",
+			"default_font",
+			"cool_text_regex",
+			"cool_text",
+			"cricleColors = [],",
+			" = ",
+			"animations_array",
+			"image_url",
+			"animations_array",
+			"cricleColors",
+			"keys",
+			"CV.current_step",
+			"CV.js_loaded",
+			"CV.onTop",
+			"cool_text",
+			"current_step",
+			"js_loaded",
+			"onTop",
+			"default_font_color",
+			"country-map-svg",
+			"background",
+			"new Array()",
+			"(),\n",
+			"new Array(),",
+			"new Array()",
+			"circleSpin",
+			"php",
+			"To make childdiv vertically center of given cod",
+			"Suppose there are 16 ",
+			"Which of the following will apply a black inner glow with 25% opacity to a page element?",
+			"For the clear property, which of the following values is not valid?",
+			"Which of the following can be used to add a shadow around the div",
+			"EXPLAIN",
+			"STUDENTS",
+			"Which of the following is the correct way to call the private method, myPrivateMethod()",
+			"“",
+			"”",
+			"′",
+			"’",
+			"‘",
+			"æ",
+			"è",
+			"update_check",
+			"ð"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"appendOutFileStream(currentLetter)",
+			"ć",
+			"č",
+			"ć",
+			"č",
+			"đ",
+			"View Project",
+			"č",
+			"ć",
+			"č",
+			">",
+			"",
+			" style",
+			"",
+			"5",
+			"6",
+			"0.10.3",
+			"0.10.4",
+			"0.10.5",
+			"ć",
+			"č",
+			"ć",
+			"č",
+			"CV.globals.copy_message",
+			"CV.globals.default_font_color",
+			"CV.globals.default_font",
+			"CV.globals.cool_text_regex",
+			"CV.globals.cool_text",
+			"CV.globals.image_url",
+			"CV.globals.animations_array",
+			"CV.globals.cricleColors",
+			"CV.globals.keys",
+			"CV.globals.current_step",
+			"CV.globals.js_loaded",
+			"CV.globals.onTop",
+			"CV.current_step",
+			"CV.js_loaded",
+			"CV.onTop",
+			"[]",
+			"\"",
+			"'",
+			"ć",
+			"č",
+			"đ",
+			"č",
+			"ć"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1154,
+								1154
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								222,
+								10,
+								4,
+								14,
+								32,
+								42,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "hoxapp.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 318.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

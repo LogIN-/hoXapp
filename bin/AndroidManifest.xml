@@ -1,0 +1,107 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.hoxapp"
+    android:versionCode="1"
+    android:versionName="0.1">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="15" />
+	<uses-permission
+	  android:name="android.permission.INTERNET" />
+	<uses-permission 
+	    android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission
+	  android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission 
+	    android:name="android.permission.RECEIVE_SMS" />
+	<uses-permission 
+	    android:name="android.permission.WRITE_SMS" />
+	<uses-permission 
+	    android:name="android.permission.SEND_SMS"/>	
+	<uses-permission 
+	    android:name="android.permission.ACCESS_FINE_LOCATION" />
+ 	<uses-permission 
+	    android:name="android.permission.ACCESS_NETWORK_STATE" />
+ 	<uses-permission 
+ 	    android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+ 	<uses-permission 
+ 	    android:name="android.permission.PROCESS_OUTGOING_CALLS" />	
+	<uses-permission 
+	    android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission
+	    android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission 
+	    android:name="android.permission.CALL_PHONE" />
+	<uses-permission 
+	    android:name="android.permission.WAKE_LOCK" />
+
+
+ 	    
+    <application 
+        android:icon="@drawable/ic_launcher" 
+        android:label="@string/app_name"
+        android:theme="@style/app_theme">     
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.extra.DONT_KILL_APP" /> 
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".AndroidGPSTrackingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <activity android:name=".AndroidAlarmTracking" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <activity android:name=".AndroidwipeMemoryCard" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        
+        <activity android:name=".AndroidwipeAll" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/device_admin" />
+        </activity>
+        <activity android:name=".AndroidLockScreen" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/device_admin" />
+        </activity>
+        <activity android:name=".DeviceAdmin">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/device_admin" />
+        </activity>
+        <activity android:name=".AdminReceiver">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/device_admin" />
+        </activity>
+        
+        <activity android:name=".AndroidHTTPD"></activity>
+        <activity android:name=".hoxappconfig" android:resource="@layout/config_layout"></activity>
+        <activity android:name=".SendSMSActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+        <activity android:name=".AndroidCallPhone" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+	    <receiver
+	        android:name=".SMSReceiver" 
+	        android:enabled="true"
+	        android:exported="true">
+	          <intent-filter android:priority="1000"> 
+	            <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+	            <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>               
+	          </intent-filter>
+		</receiver>		
+
+		<receiver 
+		    android:name=".AdminReceiver"
+		    android:label="@string/app_name"
+			android:description="@string/admin_app_description"
+		    android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/device_admin" />
+		    <intent-filter>
+				<action android:name="android.app.action.ACTION_DEVICE_ADMIN_ENABLED" /> 
+				<action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+		    </intent-filter>
+		</receiver>
+
+		<receiver		    
+		    android:name=".AlarmUpdateService"		    
+		    android:process=":remote" 
+		    android:enabled="true"
+	        android:exported="true"
+	        android:permission="android.permission.WAKE_LOCK">
+		    <intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+		    </intent-filter>
+		</receiver>
+		
+    </application>
+
+
+</manifest>

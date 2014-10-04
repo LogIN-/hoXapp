@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+	<TextView
+	    android:id="@+id/config_message"
+	    android:layout_width="fill_parent"
+	    android:layout_height="35dip"
+	    android:gravity="center"
+	    android:layout_weight="0"  
+	    android:paddingBottom="4dip"
+	    android:text="@string/config_message"
+	    android:textSize="20sp"
+	    android:background="@color/background" />
+    <TextView
+        android:id="@+id/config_pass_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0"
+        android:paddingBottom="4dip"
+        android:text="@string/config_pass_title"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/set_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:inputType="numberPassword"
+            android:hint="@string/password_hint" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/reset_password"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/reset_password" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/config_gps_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0"
+        android:paddingBottom="4dip"
+        android:text="@string/config_gps_title"
+        android:textSize="18sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+	    <TextView
+	        android:id="@+id/config_gps_message_sms"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0"
+	        android:text="@string/config_gps_message_sms"
+	        android:textSize="18sp" />
+
+	    <ToggleButton
+	        android:id="@+id/ButtonSMSOFF"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_weight="0"
+	        android:gravity="right"
+	        android:text="ToggleButton" />
+	</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+	    <TextView
+	        android:id="@+id/config_gps_message_internet"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="0"
+	        android:text="@string/config_gps_message_internet"
+	        android:textSize="18sp" />
+
+	    <ToggleButton
+	        android:id="@+id/ButtonINTOFF"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_weight="0"
+	        android:gravity="right"
+	        android:text="ToggleButton" />
+	</LinearLayout>
+	
+    <TextView
+        android:id="@+id/config_app_ident_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0"
+        android:paddingBottom="4dip"
+        android:text="@string/config_app_ident_message"
+        android:textSize="18sp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/config_app_ident"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:inputType="numberPassword"
+            android:hint="@string/config_app_ident" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/reset_app_ident"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/reset_app_ident" />
+    </LinearLayout>
+	
+    <TextView
+        android:id="@+id/config_admin_number_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0"
+        android:paddingBottom="4dip"
+        android:text="@string/config_admin_number_message"
+        android:textSize="18sp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/config_admin_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:freezesText="true"
+            android:ems="10"
+        	android:inputType="phone"
+            android:hint="@string/config_admin_number" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/reset_admin_number"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/reset_admin_number" />
+    </LinearLayout>
+</LinearLayout>

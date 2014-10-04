@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/ButtonLayoutBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:baselineAligned="false"
+        android:gravity="bottom"
+        android:background="@color/background" >
+		
+        <Button
+            android:id="@+id/startserver"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/button"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/main_startserver"
+            android:textColor="@color/button_text"
+            android:textColorHint="@color/button_text"
+            android:textColorLink="@color/button_text"
+            android:textSize="20sp" />
+		
+        <Button
+            android:id="@+id/help"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical|center_horizontal" 
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/main_help"
+            android:textSize="20sp"
+            android:textColor="@color/button_text"
+            android:textColorHint="@color/button_text"
+            android:textColorLink="@color/button_text"
+			android:background="@color/button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ButtonLayoutTop"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:baselineAligned="false"
+        android:gravity="top"
+		android:background="@color/background" >
+
+        <Button
+            android:id="@+id/deviceadmin"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="false"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/main_deviceadmin"
+            android:textColor="@color/button_text"
+            android:textColorHint="@color/button_text"
+            android:textColorLink="@color/button_text"
+			android:background="@color/button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/config"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical|center_horizontal" 
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/main_config"
+            android:textSize="20sp"
+            android:textColor="@color/button_text"
+            android:textColorHint="@color/button_text"
+            android:textColorLink="@color/button_text"
+			android:background="@color/button" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/shutdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/shutdown"
+        android:scaleType="center"
+        android:src="@drawable/shutdown_e"
+        android:background="@null" />
+
+</RelativeLayout>
